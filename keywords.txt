@@ -1,4 +1,3 @@
-DS1302  KEYWORD1
+TelegramBot  KEYWORD1
 init  KEYWORD2
-getDateTime  KEYWORD2
-setReg  KEYWORD2
+send  KEYWORD2
