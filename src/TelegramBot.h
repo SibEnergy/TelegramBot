@@ -1,10 +1,10 @@
 /*
-  TelegramBot.h - Library for sending messages to telegram chat
+  TelegramMess.h - Library for sending messages to telegram chat
   Created by Oleg N. Andrianov, August 6, 2025.
   Released into the public domain.
 */
-#ifndef _TelegramBot_H
-#define _TelegramBot_H
+#ifndef _TelegramMess_H
+#define _TelegramMess_H
 
 class TelegramBot
 {
@@ -42,5 +42,6 @@ LPAvTK33sefOT6jEm0pUBsV/fdUID+Ic/n4XuKxe9tQWskMJDE32p2u0mYRlynqI
 -----END CERTIFICATE-----
 )string_literal";
 };
+
 
 #endif
