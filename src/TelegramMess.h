@@ -6,7 +6,7 @@
 #ifndef _TelegramMess_H
 #define _TelegramMess_H
 
-class TelegramBot
+class TelegramMess
 {
     public:
         void init(char* Token, char* Chat_ID);	// Инициализация
@@ -45,3 +45,4 @@ LPAvTK33sefOT6jEm0pUBsV/fdUID+Ic/n4XuKxe9tQWskMJDE32p2u0mYRlynqI
 
 
 #endif
+
