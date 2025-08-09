@@ -1,7 +1,7 @@
 #include "WiFi.h"
 #include "TelegramMess.h"
 
-TelegramBot TBot;
+TelegramMess TBot;
 
 void setup() {
   Serial.begin(115200);
