@@ -11,12 +11,12 @@
 HTTPClient https;
 
 
-void TelegramBot::init(char* Token, char* Chat_ID){
+void TelegramMess::init(char* Token, char* Chat_ID){
 	str_All=String(str_before_token)+String(Token)+String(str_after_token)+String(Chat_ID)+String(str_after_chat_id);
 }
 
 
-void TelegramBot::send(char* Message){
+void TelegramMess::send(char* Message){
 String str_Full;
 str_Full=str_All+String(Message);
 Serial.println(str_All);
@@ -63,3 +63,4 @@ Serial.println("Client get sertificate");
   }
 
 }
+
