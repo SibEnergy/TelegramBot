@@ -1,5 +1,5 @@
 /*
-  TelegramBot.cpp - Library for sending messages to telegram chat
+  TelegramMess.cpp - Library for sending messages to telegram chat
   Created by Oleg N. Andrianov, August 6, 2025.
   Released into the public domain.
 */
@@ -7,7 +7,7 @@
 #include <Arduino.h>
 #include <HTTPClient.h>
 #include <NetworkClientSecure.h>
-#include "TelegramBot.h"
+#include "TelegramMess.h"
 HTTPClient https;
 
 
@@ -61,4 +61,5 @@ Serial.println("Client get sertificate");
   } else {
     Serial.println("Unable to create client");
   }
+
 }
